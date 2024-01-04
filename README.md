@@ -21,6 +21,11 @@ Returns the address of the transaction receiver and emits the Receiver event.
 Returns:
 address: Address of the transaction receiver.
 
+Details
+Name: Tenge
+Symbol: TG
+Total Supply: 2000
+Standard: ERC-20
 Deployment
 This contract can be deployed on the Ethereum blockchain using Remix or any other Solidity development environment.
 
