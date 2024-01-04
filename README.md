@@ -1,8 +1,8 @@
 # Blockhain-1. AituDariga Token Smart Contract
 
 Summary
-The ERC-20-based AituDariga Token (symbol: TG) is implemented by this Solidity smart contract.
-The "Tenge" token has a total quantity of 2000 when it is first produced. Retrieving transaction timestamps and details about the sender and recipient of the transaction are also included in the contract.
+The ERC-20-based AituDariga Token (symbol: TG) is implemented by this Solidity smart contract.                                                                                                                       
+The "Tenge" token has a total quantity of 2000 when it is first produced. Retrieving transaction timestamps and details about the sender and recipient of the transaction are also included in the contract.         
 
 Functions
 getLatestTransactionTimestamp()
