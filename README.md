@@ -17,7 +17,7 @@ Create a function to return the block timestamp of the latest transaction in a h
 
 Function getAddressTransactionSender
 Implement a function to retrieve the address of the transaction sender.
-![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/669b1d4b-a441-463e-a4ee-f0340ac309a7)
+![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/669b1d4b-a441-463e-a4ee-f0340ac309a7)  
   In the logs, you'll find the sender's address value under the key "addr." This function offers transparency by exposing the address of the entity initiating the transaction.
 ![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/1e73012d-a7fd-4ea5-8f84-14928ab5930a)
 
