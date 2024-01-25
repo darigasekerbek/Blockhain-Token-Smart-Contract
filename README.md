@@ -30,7 +30,7 @@ In the logs, the receiver's address value is logged under the key "addr." This f
 ![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/efb0d4e1-df1e-4850-b2fd-03e9ba922fac)
 
 
-This documentation serves as a comprehensive guide to the tasks undertaken in the first assignment, offering clear explanations and showcasing the relevant code snippets for your understanding.
+This documentation serves as a comprehensive guide to the tasks undertaken in the first assignment, offering clear explanations and showcasing the relevant code snippets for your understanding. <br>
 That's all. Thank you!
 
 
