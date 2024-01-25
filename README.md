@@ -1,38 +1,28 @@
 # Blockhain-1. AituDariga Token Smart Contract
-Details
+Usage
+![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/ae0f529c-6153-4f83-8378-7366a44e5d93)
+ constructor() ERC20("Tenge", "tg") {
+        _mint(msg.sender, 2000);
+    }
 Name: Tenge
 Symbol: TG
 Total Supply: 2000
 Standard: ERC-20
 
-Summary
-  The ERC-20-based AituDariga Token (symbol: TG) is implemented by this Solidity smart contract.                                                                                                                       
-The "Tenge" token has a total quantity of 2000 when it is first produced. 
-Retrieving transaction timestamps and details about the sender and recipient of the transaction are also included in the contract.         
+Function getLatestTransactionTimestamp
+Create a function to return the block timestamp of the latest transaction in a human-readable format.
+![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/9bf00126-05be-4b11-946d-930bb2b28dfe)
+In the logs, you can observe the human-readable format time (hours: minute: seconds). This function enhances the usability of the blockchain data by providing a more understandable representation of transaction times.
+![image](https://github.com/darigasekerbek/Blockhain-1/assets/129574982/1971ea5e-c7ef-4ce0-b2f2-d1b4ffe37a1c)
 
-Functions
-getLatestTransactionTimestamp()
-Returns the current timestamp and emits the Timestamp event with the current hour, minute, and second.
+Function getAddressTransactionSender
+Implement a function to retrieve the address of the transaction sender.
+![Uploading image.png…]()
 
-Returns:
-uint256: Current timestamp.
-getAddressTransactionSender()
-Returns the address of the transaction sender and emits the Sender event.
 
-Returns:
-address: Address of the transaction sender.
-getTransactionReceiver()
-Returns the address of the transaction receiver and emits the Receiver event.
 
-Returns:
-address: Address of the transaction receiver.
 
-Deployment
-This contract can be deployed on the Ethereum blockchain using Remix or any other Solidity development environment.
 
-License
-This smart contract is licensed under GNU General Public License v3.0
-
-Thank you!
+That's all. Thank you!
 
 
