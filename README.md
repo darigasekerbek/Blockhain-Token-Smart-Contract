@@ -32,11 +32,8 @@ function getLatestTransactionTimestamp() public view returns (string memory) {
 }
 ```
 
-![Transaction Timestamp](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/transaction-timestamp.png)  
-
 In the logs, you can observe the human-readable format time (hours: minutes: seconds). This function enhances the usability of the blockchain data by providing a more understandable representation of transaction times.  
 
-![Timestamp Logs](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/timestamp-logs.png)  
 
 ---
 
@@ -50,11 +47,9 @@ function getAddressTransactionSender() public view returns (address) {
 }
 ```
 
-![Transaction Sender](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/transaction-sender.png)  
 
 In the logs, you'll find the sender's address value under the key **"addr"**. This function offers transparency by exposing the address of the entity initiating the transaction.  
 
-![Sender Logs](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/sender-logs.png)  
 
 ---
 
@@ -68,11 +63,9 @@ function getTransactionReceiver(address recipient) public pure returns (address)
 }
 ```
 
-![Transaction Receiver](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/transaction-receiver.png)  
 
 In the logs, the receiver's address value is logged under the key **"addr"**. This function complements the previous one, providing insights into the recipient's address for each transaction.  
 
-![Receiver Logs](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/receiver-logs.png)  
 
 ---
 
