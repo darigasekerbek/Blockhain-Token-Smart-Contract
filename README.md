@@ -10,8 +10,6 @@ It provides fundamental token functionalities, including transaction tracking an
 - **Total Supply:** 2000 TG  
 - **Standard:** ERC-20  
 
-![Token Overview](https://raw.githubusercontent.com/darigasekerbek/Blockhain-1/main/assets/token-overview.png)  
-
 ### 🔹 Smart Contract Initialization  
 The token contract is initialized with a **total supply of 2000 TG**, minted to the contract deployer.  
 
